@@ -1,0 +1,32 @@
+.DS_Store
+node_modules/
+babel_cache/
+build/
+config/index_override.js
+*.sublime-workspace
+.idea/
+.eslintcache
+/tmp
+out/
+
+# Redis dump files
+*.rdb
+
+!.env
+*.env
+.envrc
+.env
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.turbo
+
+coverage/
+test-runs/
+test-results/
+/playwright-report/
+/playwright/.cache/
+apps/webUITests/summary.json
+apps/webUITests/results.json
+apps/web-next/dist
