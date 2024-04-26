@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import voiceInputIcon from "./voice.png";
 import "./Main.css";
-const apiKey = process.env.GPT_KEY;
+const apiKey = process.env.REACT_APP_GPT_KEY;
 function Chatbot() {
   const [userInput, setUserInput] = useState("");
   const url = `https://api.openai.com/v1/chat/completions`;
